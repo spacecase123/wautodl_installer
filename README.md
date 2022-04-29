@@ -16,6 +16,12 @@ You will have your setup ready in ~10 seconds.
     git clone https://github.com/wuseman/WAUTODL
     cd WAUTODL; chmod +x wautodl; bash wautodl.sh 
 
+# Gentoo Users
+
+From a portage install, you will need below:
+
+    dev-perl/XML-LibXML
+
 # REQUIREMENTS
 
 A linux setup would be good ;)
