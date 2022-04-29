@@ -18,9 +18,10 @@ You will have your setup ready in ~10 seconds.
 
 # Gentoo Users
 
-From a portage install, you will need below:
+From a portage install, you will need below since they wont work from cpan as default, you can try, however otherwise you have the emerge command below:
 
-    dev-perl/XML-LibXML
+    cpan install Archive::Zip  XML::LibXML
+    emerge dev-perl/Archive-Zip dev-perl/XML-LibXML
 
 # REQUIREMENTS
 
